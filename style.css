@@ -172,12 +172,23 @@ footer {
         background: #2c2c2e;
     }
 
-    a, footer a {
+    /* Обновляем цвета ссылок для тёмной темы */
+    a {
         color: #bb86fc;
     }
 
-    .chapter-link, .nav-btn {
+    footer a {
+        color: #bb86fc; /* Явно указываем цвет для ссылок в подвале */
+    }
+
+    .chapter-link,
+    .nav-btn {
         background: #373739;
-        color: #e0e0e0;
+        color: #e0e0e0 !important; /* Используем !important для переопределения цвета текста */
+    }
+
+    .chapter-link:hover,
+    .nav-btn:hover {
+        background: #555; /* Добавляем эффект при наведении для тёмной темы */
     }
 }
