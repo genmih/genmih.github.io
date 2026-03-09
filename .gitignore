@@ -1,0 +1,16 @@
+# Игнорирование системных файлов и кэша
+
+# Файлы кэша Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Системные файлы macOS и Windows
+.DS_Store
+Thumbs.db
+
+# Файлы конфигурации редакторов кода (VSCode, JetBrains, Vim)
+.vscode/
+.idea/
+*.swp
