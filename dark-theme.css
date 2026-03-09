@@ -1,0 +1,13 @@
+/* Светлая тема (по умолчанию) */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Тёмная тема – применяется, если система в тёмном режиме */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #eeeeee;
+  }
+}
