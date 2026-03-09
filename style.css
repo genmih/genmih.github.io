@@ -139,3 +139,45 @@ footer {
         text-align: center;
     }
 }
+
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #121212;
+        color: #e0e0e0;
+    }
+
+    .container {
+        background: #1e1e1e;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+
+    header,
+    .navigation,
+    footer {
+        border-color: #444;
+    }
+
+    h1 {
+        color: #f5f5f5;
+    }
+
+    .author,
+    footer,
+    .description {
+        color: #adb5bd;
+    }
+
+    .description {
+        background: #2c2c2e;
+    }
+
+    a, footer a {
+        color: #bb86fc;
+    }
+
+    .chapter-link, .nav-btn {
+        background: #373739;
+        color: #e0e0e0;
+    }
+}
